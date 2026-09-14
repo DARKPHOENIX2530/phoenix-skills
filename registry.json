@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "name": "nemo-rl-auto-research",
+      "version": "1.0.0",
+      "description": "Automated RL research workflow with Nemo",
+      "path": "skills/nemo-rl-auto-research",
+      "tags": ["rl", "research", "nemo", "automation"]
+    },
+    {
+      "name": "web-search",
+      "version": "1.0.0",
+      "description": "Live web search via DuckDuckGo - no API key required",
+      "path": "skills/web-search",
+      "tags": ["search", "web", "research"]
+    },
+    {
+      "name": "github",
+      "version": "1.0.0",
+      "description": "GitHub operations - issues, PRs, repos, actions via gh CLI or API",
+      "path": "skills/github",
+      "tags": ["github", "git", "ci-cd", "issues", "prs"]
+    },
+    {
+      "name": "code-review",
+      "version": "1.0.0",
+      "description": "Automated code review - security, style, complexity, best practices",
+      "path": "skills/code-review",
+      "tags": ["code-review", "security", "linting", "quality"]
+    }
+  ],
+  "updated": "2026-09-14",
+  "total": 4
+}

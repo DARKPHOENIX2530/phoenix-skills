@@ -1,0 +1,13 @@
+{
+  "name": "web-search",
+  "version": "1.0.0",
+  "description": "Live web search via DuckDuckGo - no API key required",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "web_search:WebSearchSkill",
+  "requires": ["requests", "beautifulsoup4"],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode"],
+  "tags": ["search", "web", "research", "duckduckgo"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/web-search"
+}

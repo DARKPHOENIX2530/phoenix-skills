@@ -1,0 +1,13 @@
+{
+  "name": "nemo-rl-auto-research",
+  "version": "1.0.0",
+  "description": "Automated RL research workflow with Nemo - runs experiments, collects metrics, generates reports",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "nemo_rl_auto_research:NemoRLAutoResearchSkill",
+  "requires": ["torch", "nemo-toolkit", "wandb", "numpy"],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode"],
+  "tags": ["rl", "research", "nemo", "automation", "experiment-tracking"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/nemo-rl-auto-research"
+}

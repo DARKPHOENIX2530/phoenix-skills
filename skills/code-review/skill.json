@@ -1,0 +1,13 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "Automated code review - security, style, complexity, best practices",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "code_review:CodeReviewSkill",
+  "requires": ["radon", "bandit", "pylint"],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode"],
+  "tags": ["code-review", "security", "linting", "quality", "static-analysis"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/code-review"
+}
