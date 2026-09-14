@@ -1,0 +1,28 @@
+# Phoenix Skills
+> Cross-agent skills repository for Phoenix, Claude Code, Codex, Hermes, OpenCode, and any Python-compatible AI agent.
+
+## Project Structure
+- Skills registry: `registry.json` (index of all skills)
+- Installer: `install.py` (CLI for installing skills)
+- Skills:
+  - `skills/web-search/` - DuckDuckGo web search (no API key)
+  - `skills/github/` - GitHub operations via gh CLI/API
+  - `skills/code-review/` - Security, complexity, style analysis
+  - `skills/nemo-rl-auto-research/` - Automated RL research with Nemo
+
+## Key Features
+- Agent-agnostic: pure Python, works with any agent
+- Self-contained: each skill has manifest, code, requirements
+- Installable: `python install.py install <skill-name>`
+- Cross-platform: Windows, Linux, macOS
+- No framework lock-in: import and use directly
+
+## Usage Terms
+- Free for personal and commercial use
+- Attribution required: "Phoenix Skills by DARKPHOENIX2530"
+- License: MIT
+
+## Links
+- Repository: https://github.com/DARKPHOENIX2530/phoenix-skills
+- Raw registry: https://raw.githubusercontent.com/DARKPHOENIX2530/phoenix-skills/main/registry.json
+- Installer: https://raw.githubusercontent.com/DARKPHOENIX2530/phoenix-skills/main/install.py
