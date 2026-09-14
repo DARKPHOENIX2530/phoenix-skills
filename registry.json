@@ -27,8 +27,15 @@
       "description": "Automated code review - security, style, complexity, best practices",
       "path": "skills/code-review",
       "tags": ["code-review", "security", "linting", "quality"]
+    },
+    {
+      "name": "context-mode-routing",
+      "version": "1.0.0",
+      "description": "Context-mode routing rules - soft-trim context management with 11 MCP tools (ctx_execute, ctx_search, ctx_index, etc.)",
+      "path": "skills/context-mode-routing",
+      "tags": ["context-management", "mcp", "token-optimization", "context-mode"]
     }
   ],
   "updated": "2026-09-14",
-  "total": 4
+  "total": 5
 }

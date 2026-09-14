@@ -1,0 +1,13 @@
+{
+  "name": "context-mode-routing",
+  "version": "1.0.0",
+  "description": "Context-mode routing rules - soft-trim context management with 11 MCP tools (ctx_execute, ctx_search, ctx_index, etc.)",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "context_mode_routing:ContextModeRoutingSkill",
+  "requires": [],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode"],
+  "tags": ["context-management", "mcp", "token-optimization", "context-mode"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/context-mode-routing"
+}
