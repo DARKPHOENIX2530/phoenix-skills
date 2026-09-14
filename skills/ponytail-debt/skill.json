@@ -1,0 +1,15 @@
+{
+  "name": "ponytail-debt",
+  "version": "4.9.0",
+  "description": "Harvest every `ponytail:` comment in the codebase into a debt ledger, so deliberate shortcuts and deferrals get tracked instead of rotting into 'later means never'.",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "ponytail_debt:PonytailDebtSkill",
+  "requires": [],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode", "gemini", "qoder", "cursor", "windsurf", "grok"],
+  "tags": ["technical-debt", "debt-tracking", "shortcuts", "codebase-health"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/ponytail-debt",
+  "original_author": "Dietrich Gebert",
+  "original_repo": "https://github.com/DietrichGebert/ponytail"
+}

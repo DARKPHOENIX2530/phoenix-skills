@@ -34,8 +34,50 @@
       "description": "Context-mode routing rules - soft-trim context management with 11 MCP tools (ctx_execute, ctx_search, ctx_index, etc.)",
       "path": "skills/context-mode-routing",
       "tags": ["context-management", "mcp", "token-optimization", "context-mode"]
+    },
+    {
+      "name": "ponytail",
+      "version": "4.9.0",
+      "description": "Lazy senior dev mode for AI agents - forces simplest solution that works (YAGNI -> stdlib -> native -> one line). Levels: lite, full, ultra.",
+      "path": "skills/ponytail",
+      "tags": ["code-minimization", "yagni", "lazy-dev", "over-engineering-prevention", "token-optimization"]
+    },
+    {
+      "name": "ponytail-review",
+      "version": "4.9.0",
+      "description": "Code review focused exclusively on over-engineering. Finds what to delete: reinvented stdlib, unneeded dependencies, speculative abstractions, dead flexibility.",
+      "path": "skills/ponytail-review",
+      "tags": ["code-review", "over-engineering", "complexity-reduction", "yagni"]
+    },
+    {
+      "name": "ponytail-audit",
+      "version": "4.9.0",
+      "description": "Whole-repo audit for over-engineering. Scans entire codebase for what to delete, simplify, or replace with stdlib/native equivalents. Ranked list, biggest cut first.",
+      "path": "skills/ponytail-audit",
+      "tags": ["code-audit", "over-engineering", "complexity-reduction", "whole-repo"]
+    },
+    {
+      "name": "ponytail-debt",
+      "version": "4.9.0",
+      "description": "Harvest every `ponytail:` comment in the codebase into a debt ledger, so deliberate shortcuts and deferrals get tracked instead of rotting into 'later means never'.",
+      "path": "skills/ponytail-debt",
+      "tags": ["technical-debt", "debt-tracking", "shortcuts", "codebase-health"]
+    },
+    {
+      "name": "ponytail-gain",
+      "version": "4.9.0",
+      "description": "Show ponytail's measured impact as a compact scoreboard: less code, less cost, more speed, from the benchmark medians. One-shot display.",
+      "path": "skills/ponytail-gain",
+      "tags": ["benchmark", "impact-measurement", "code-reduction", "scoreboard"]
+    },
+    {
+      "name": "ponytail-help",
+      "version": "4.9.0",
+      "description": "Quick-reference card for all ponytail modes, skills, and commands. One-shot display.",
+      "path": "skills/ponytail-help",
+      "tags": ["help", "reference", "commands", "quick-start"]
     }
   ],
   "updated": "2026-09-14",
-  "total": 5
+  "total": 11
 }

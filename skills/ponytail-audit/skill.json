@@ -1,0 +1,15 @@
+{
+  "name": "ponytail-audit",
+  "version": "4.9.0",
+  "description": "Whole-repo audit for over-engineering. Scans entire codebase for what to delete, simplify, or replace with stdlib/native equivalents. Ranked list, biggest cut first.",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "ponytail_audit:PonytailAuditSkill",
+  "requires": [],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode", "gemini", "qoder", "cursor", "windsurf", "grok"],
+  "tags": ["code-audit", "over-engineering", "complexity-reduction", "whole-repo"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/ponytail-audit",
+  "original_author": "Dietrich Gebert",
+  "original_repo": "https://github.com/DietrichGebert/ponytail"
+}

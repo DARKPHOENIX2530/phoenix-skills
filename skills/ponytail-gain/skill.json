@@ -1,0 +1,15 @@
+{
+  "name": "ponytail-gain",
+  "version": "4.9.0",
+  "description": "Show ponytail's measured impact as a compact scoreboard: less code, less cost, more speed, from the benchmark medians. One-shot display.",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "ponytail_gain:PonytailGainSkill",
+  "requires": [],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode", "gemini", "qoder", "cursor", "windsurf", "grok"],
+  "tags": ["benchmark", "impact-measurement", "code-reduction", "scoreboard"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/ponytail-gain",
+  "original_author": "Dietrich Gebert",
+  "original_repo": "https://github.com/DietrichGebert/ponytail"
+}

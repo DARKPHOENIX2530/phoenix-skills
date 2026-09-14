@@ -1,0 +1,15 @@
+{
+  "name": "ponytail-help",
+  "version": "4.9.0",
+  "description": "Quick-reference card for all ponytail modes, skills, and commands. One-shot display.",
+  "author": "DARKPHOENIX2530",
+  "entry_point": "ponytail_help:PonytailHelpSkill",
+  "requires": [],
+  "compatible_agents": ["phoenix", "claude-code", "codex", "hermes", "opencode", "gemini", "qoder", "cursor", "windsurf", "grok"],
+  "tags": ["help", "reference", "commands", "quick-start"],
+  "license": "MIT",
+  "repository": "https://github.com/DARKPHOENIX2530/phoenix-skills",
+  "homepage": "https://github.com/DARKPHOENIX2530/phoenix-skills/tree/main/skills/ponytail-help",
+  "original_author": "Dietrich Gebert",
+  "original_repo": "https://github.com/DietrichGebert/ponytail"
+}
